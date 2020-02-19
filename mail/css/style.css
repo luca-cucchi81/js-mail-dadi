@@ -1,0 +1,11 @@
+#container1{
+    display: none;
+}
+
+#container2{
+    display: none;
+}
+
+#container1.visible, #container2.visible{
+    display: block;
+}
