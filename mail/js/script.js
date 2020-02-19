@@ -19,7 +19,7 @@ var verify = false;
 // creo ciclo for con condizione di verità
 for (var i = 0; i < approvedMail.length; i++) {
     if (email == approvedMail[i]) {
-        var verify = true;
+        verify = true;
     }
 }
 
