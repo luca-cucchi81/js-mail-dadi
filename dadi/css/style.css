@@ -12,15 +12,22 @@
   }
 
   .container{
-      width: 600px;
+      width: 800px;
       height: 100%;
       margin: 50px auto;
       padding: 20px 0;
       display: flex;
-      justify-content: space-around;
-      background-image: url('https://image.freepik.com/foto-gratuito/bicchiere-di-whisky-con-cubetti-di-ghiaccio-e-dadi-rossi-su-sfondo-verde-poker_23-2147881070.jpg');
+      flex-direction: column;
+      align-items: center;
+      background-image: url('https://media.istockphoto.com/photos/poker-chips-on-green-felt-casino-table-gambling-poker-blackjack-and-picture-id672545750?k=6&m=672545750&s=612x612&w=0&h=UUqDys2MxnPa9eQNHifbFdSGYrR94iKJahBk7Pwz1co=');
       background-repeat: no-repeat;
       background-size: cover;
+  }
+
+  .partecipanti{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
   }
 
   .giocatore-uno, .giocatore-due{
@@ -35,9 +42,9 @@
 
   #primo-nome, #secondo-nome{
       margin-top: 15px;
-      color: lightgreen;
+      color: red;
       text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 3rem;
       font-weight: 700;
   }
 
@@ -48,7 +55,8 @@
   }
 
   .tiro p{
-      color: white;
+      color: yellow;
+      font-weight: 700;
       font-size: 2rem;
   }
 
@@ -62,4 +70,30 @@
       width: 100px;
       height: 100px;
       margin-top: 20px;
+  }
+
+  #vincitore h1{
+       color: orange;
+       padding-top: 20px;
+  }
+
+  #nome-vincitore {
+      color:navy;
+      font-size: 5rem;
+      text-transform: uppercase;
+  }
+
+  #pareggio h1{
+      color: red;
+      font-size: 3rem;
+      text-transform: uppercase;
+  }
+
+  #vincitore, #pareggio{
+      display: none;
+  }
+
+  #vincitore.visible, #pareggio.visible{
+      display: block;
+      text-align: center;
   }
