@@ -12,7 +12,9 @@ var approvedMail= ['ajeje@brazorf.it', 'paolino@paperino.org', 'vero@rockettaro.
 
 //prompt verifica Mail
 var email = prompt('Inserisci la tua mail:')
-console.log(email);
+
+// Variabile di verifica
+var verify = false;
 
 // creo ciclo for con condizione di verità
 for (var i = 0; i < approvedMail.length; i++) {
