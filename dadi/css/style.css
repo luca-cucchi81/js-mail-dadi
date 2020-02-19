@@ -77,8 +77,17 @@
        padding-top: 20px;
   }
 
+  button{
+      margin-top: 20px;
+      padding: 15px;
+      background-color: navy;
+      border: 1px solid navy;
+      border-radius: 10px;
+  }
+
+
   #nome-vincitore {
-      color:navy;
+      color: white;
       font-size: 5rem;
       text-transform: uppercase;
   }
